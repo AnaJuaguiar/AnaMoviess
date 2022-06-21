@@ -1,0 +1,139 @@
+#releases {
+    background-color: #FFC0CB;
+    padding: 1rem 10rem 1rem 10rem;
+}
+.releases-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.releases-header h1{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+/* carrossel - definições */
+#releases .carousel-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.caroussel-inner{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-title h1 {
+    padding-bottom: 8px;
+    border-bottom: 2px solid black;
+}
+
+ .carousel-movie {
+    min-width: 40%;
+    padding-bottom: 3.5rem;
+}
+
+.carousel-content{
+    display: flex;
+}
+
+.carousel-description{
+    width: 50%;
+}
+
+.carousel-movie > div{
+    display: flex;
+}
+
+.carousel-movie .movie-poster img{
+    height: 450px;
+}
+
+.carousel-movie .movie-description {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+} 
+
+.carousel-indicators li {
+    background-color: #616362;
+}
+
+.flag {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #DDA0DD;
+}
+
+.flag .inner-flag {
+    font-weight: bold;
+}
+
+.movie-production img {
+    height: 50px;
+}
+.carousel-description{
+    padding: 10px;
+    min-width: 60%;
+}
+.carousel-description p{
+    text-align: left;
+    font-size: 22px;
+
+}
+@media (max-width: 1000px){
+
+    #releases{
+        padding: 10px;
+    }
+    .releases-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .carousel-movie .movie-description{
+        width: 90%;
+    }
+    .carousel-movie .movie-poster {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .carousel-movie .movie-description {
+        width: 93%;
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    .flag {
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #DDA0DD;
+        width: 30%;
+        margin: 5px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .movie-production img{
+        max-width: 60%; 
+        height: auto;
+        justify-content: center;
+    }
+    .carousel-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-item.active{
+        display: block;
+    }
+    .img-banner{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,136 @@
+#highlighted {
+    padding: 1rem 10rem 1rem 10rem;
+}
+
+.highlighted-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ h5{
+    font-size: large;
+    color:  red;
+    scrollbar-color: dark;
+
+}
+
+.flip {
+    position:relative;
+    overflow:hidden;
+    float:left;
+    margin-right:20px
+}
+.flip figure {
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+    margin-left:-50px;
+    display: flex;
+    align-items:auto;
+}
+.flip figure img {
+    display:block;
+    position:relative;
+    z-index:10;
+    margin:-15px 0
+}
+.flip figure figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.flip figure h2 {
+    color:black;
+    font-size:20px;
+    text-align:left
+}
+.flip figure p {
+    display:flex;
+    text-align: justify;
+    vertical-align: middle;
+    font-size:14px;
+    line-height:18px;
+    margin:0;
+    color:black;
+}
+.flip figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:29px 44px;
+    background-color:rgb(255,192,203);
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.flip figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.flip figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+.flip figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
+
+
+#highlighted .btn-category {
+    border: 1px solid black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}
+
+.movies-banner img{ 
+    width: 250px;
+    padding: 15px;
+}
+
+.btn-plus-icon {
+    height: 40px;
+}
+.col-6 .col-md-4 img{
+    width: 390px;
+    height: auto;
+}
+@media (max-width: 1000px){
+   #highlighted{
+       width: 100%;
+       padding: 10px;
+   }
+    .highlighted-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .movies-banner {
+        margin: 34px;
+    }
+    .movies-banner img{ 
+        width: 80%;
+        padding: 15px;
+    }
+
+
+
+}  
+    
+
+

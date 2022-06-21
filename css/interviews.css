@@ -1,0 +1,30 @@
+#interviews {
+    background-color: #FFC0CB;
+}
+
+#interviews {
+    padding: 5rem 10rem 15rem 10rem;
+}
+
+.makingof-video {
+    width: 100%;
+}
+
+@media(max-width:1000px){
+    #interviews {
+        
+        padding: 10px;
+        padding-top: 90px;
+    }
+    .interviews-card{
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .video{
+        justify-content: center;
+        margin: 10px;
+
+    }
+}

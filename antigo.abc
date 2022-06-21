@@ -1,0 +1,578 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal de Filmes</title> -->
+
+    <!-- Bootstrap -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    /> -->
+
+    <!-- Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Comic+Neue:ital,wght@0,300;1,700&family=Kumbh+Sans&display=swap" rel="stylesheet"> -->
+    
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/releases.css">
+    <link rel="stylesheet" href="./css/highlighted.css">
+    <link rel="stylesheet" href="./css/ratings.css">
+    <link rel="stylesheet" href="./css/interviews.css">
+    <link rel="stylesheet" href="./css/news.css">
+    <link rel="stylesheet" href="./css/footer.css">
+  </head>
+  
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg custom-nav">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="hamb-menu">
+            <img src="./assets/icons/hamb-menu.svg" alt="hamburger menu">
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">
+            <div class="nav-logo">
+              <img src="./assets/images/logo.png" alt="Logo">
+            </div>
+          </a>
+
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mr-5 navigation">
+            <li class="nav-item">
+              <a class="nav-link" href="#releases">Lançamentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#highlighted">Em Destaque</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ratings">Avaliações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#interviews">Entrevistas & MakingOf</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">Novidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search.html">Pesquisar Filme</a>
+            </li>
+          </ul>
+
+          <form class="form-inline my-2 my-lg-0">
+            <div class="nav-search">
+                <img class="search-icon" src="./assets/icons/search.svg" alt="Ícone Pesquisa">
+                <input
+                  type="text"
+                  placeholder="Pesquisar filme"
+                  aria-label="Search"
+                />
+                <img class="x-icon" src="./assets/icons/x-circle.svg" alt="Ícone Pesquisa">
+            </div>
+          </form>
+        </div>
+      </nav>
+    </header> -->
+
+    <!-- Lançamentos -->
+    <!-- <section id="releases">
+      <div class="releases-header">
+        <h1>Filmes Populares</h1>
+      </div> -->
+
+      <!-- Carrossel -->
+      <!-- <div id="CarouselMovies" class="carousel-slide carousel-movie carousel" data-ride="carousel">
+        <div class="caroussel-inner "> 
+
+          <div class="carousel-item active movie-poster">
+            <div class="carousel-content">
+              <div class="img-banner">
+                <img src="/assets/images/chihiro.jpg" class="img-fluid">
+              </div>
+              <div class="movie-description">
+                <h3>A Viagem de Chihiro</h3>
+                <p>
+                  <b>Sinopse: </b>
+                  Chihiro e seus pais estão se mudando para uma cidade diferente. 
+                  A caminho da nova casa, o pai decide pegar um atalho. 
+                  Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. 
+                  Agora, apenas Chihiro pode salvá-los.
+                </p>
+                <p>
+                  <strong>Diretor:</strong> Hayao Miyazaki
+                </p>
+                <span>
+                    <strong>Roteiro:</strong> Hayao Miyazaki
+                </span>
+                <span>
+                  <strong>Estreia:</strong> 18 de julho de 2003
+                </span>
+              </div>
+            </div>  
+          </div>
+
+          <div class="carousel-item movie-poster">
+            <div class="carousel-content">
+              <div class="img-banner">
+                <img src="/assets/images/o-castelo-animado_t1338_46.jpg" class="img-fluid">
+              </div>
+              <div class="movie-description">
+                <h3>O Castelo Animado</h3>
+                <p>
+                  <b>Sinopse: </b>
+                  Uma bruxa lança uma terrível maldição sobre a jovem Sophie transformando-a numa velha de 90 anos. 
+                  Desesperada, ela embarca numa odisseia em busca do Castelo Andante, onde reside um misterioso feiticeiro que poderá ajudá-la a reverter o feitiço.
+                </p>
+                <p>
+                  <strong>Diretor:</strong> Hayao Miyazaki
+                </p>
+                <span>
+                    <strong>Autora:</strong> Diana Wynne Jones
+                </span>
+                <span>
+                  <strong>Estreia:</strong> 20 de novembro de 2004
+                </span>
+              </div>
+            </div>  
+          </div>
+
+          <div class="carousel-item movie-poster">
+            <div class="carousel-content">
+              <div class="img-banner">
+                <img src="/assets/images/tumulo.jpg" class="img-fluid">
+              </div>
+              <div class="movie-description">
+                <h3>O Túmulo dos Vagalumes</h3>
+                <p>
+                  <b>Sinopse: </b>
+                  Os irmão Setsuko e Seita vivem no Japão em meio a Segunda Guerra Mundial. 
+                  Após a morte da mãe em um bombardeio e a convocação do pai para a Guerra, eles vão morar com alguns parentes. 
+                  Insatisfeitos, saem da cidade e acabam em um abrigo na floresta.
+                </p>
+                <p>
+                  <strong>Diretor:</strong>  Isao Takahata
+                </p>
+                <span>
+                    <strong>Autor:</strong> Akiyuki Nosaka
+                </span>
+                <span>
+                  <strong>Estreia:</strong> 24 de novembro de 1989
+                </span>
+              </div>
+            </div>  
+          </div>
+
+        </div>
+      </div>
+     
+    </section> -->
+    
+  
+      
+
+    <!-- Em destaque -->
+    <!-- <section id="highlighted">
+      <div class="highlighted-header">
+        <h1>Últimos Filmes</h1>
+        <div class="dropdown">
+          <button class="btn btn-white btn-category dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categoria: TODOS
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Aventura</a>
+            <a class="dropdown-item" href="#">Romance</a>
+            <a class="dropdown-item" href="#">Comédia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="movies-banner">
+        <div class="container-fluid">
+          <div id="banners" class="row justify-content-between mt-3">
+            <div class="container">
+              <div class="row">
+                <div class="col-6 col-md-4">
+                  <img src="/assets/images/o-castelo-animado_t1338_46.jpg">
+                </div>
+
+                <div class="col-6 col-md-4">
+                  <img src="/assets/images/mononoke.jpg">
+                </div>
+
+                <div class="col-6 col-md-4">
+                  <img src="/assets/images/ponyo-uma-amizade-que-veio-do-mar_t1380_15.jpg">
+                </div>
+                           
+                <div class="col-6 col-md-4">
+                  <img src="/assets/images/totoro.jpg">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="/assets/images/whisper of the heart.jpg">
+                </div>
+                <div class="col-6 col-md-4">
+                  <img src="/assets/images/kikis.jpg">
+                </div>
+              </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-row-reverse mt-5">
+        <button type="button" class="btn btn-dark  align-items-center">
+          <img class="btn-plus-icon" src="./assets/icons/plus.svg" alt="Carregar mais">
+          <span>Carregar mais filmes</span>
+        </button>
+      </div>
+    </section> -->
+
+    <!-- Últimas avaliações -->
+    <!-- <section id="ratings">
+      <div class="ratings-header"> 
+        <h1 class="text-weight-bold">Últimas avaliações</h1>
+      </div>
+
+      <div class="ratings-cards mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex ratings-column">
+              <div>
+                <img class="user-icon" src="./assets/icons/user.svg" alt="Foto Usuário">
+              </div>
+
+              <div class="ml-4">
+                <p class=" text-weight-bold">Vovó Juju</p>
+
+                <p> 
+                  <strong>Avaliação:</strong>
+                  A música e a partitura original são incrivelmente bonitas, a faixa original em japonês é de tão alta qualidade que se pergunta por que alguém poderia insultar o trabalho produzindo uma faixa dub. Com um enredo que difere em sua complexidade em tantos níveis, desde o enredo básico, até os temas universais onipresentes, até o enigma da história e fábula japonesas, crianças e adultos ficarão hipnotizados do início ao fim.
+                </p>
+
+                <div class="d-flex-row justify-content-between">
+                  <div class="d-flex-row">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                  </div>
+
+                  <div>
+                    <strong>19/04/2022</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col d-flex ratings-column">
+              <div>
+                <img class="user-icon" src="./assets/icons/user.svg" alt="Foto Usuário">
+              </div>
+
+              <div class="ml-4">
+                <p class="text-weight-bold">Ana Catarina</p>
+
+                <p> 
+                  <strong>Avaliação:</strong>
+                  Sou um grande fã de Miyazaki... Este filme está definitivamente no top 3 dele... A história da Princesa Mononoke é muito profunda e prende sua atenção. Tempo após tempo. Você pode ter que assistir algumas vezes para pegar tudo, mas você vai se apaixonar pelos personagens e pela história toda vez que se sentar para assistir.               
+                </p>
+
+                <div class="d-flex-row justify-content-between">
+                  <div class="d-flex-row">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                  </div>
+
+                  <div>
+                    <strong>19/04/2022</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col d-flex ratings-column">
+              <div>
+                <img class="user-icon" src="./assets/icons/user.svg" alt="Foto Usuário">
+              </div>
+
+              <div class="ml-4">
+                <p class=" text-weight-bold">Irmão do Jorel</p>
+
+                <p> 
+                  <strong>Avaliação:</strong>
+                  Do brilhante "Walt Disney do Japão", Hayao Miyazaki, vem um filme maravilhoso e reconfortante que todos simplesmente abraçarão. Apresentando uma animação impressionante, personagens cativantes e um enredo emocionante que é simples, encantador e até dramático.
+                </p>
+
+                <div class="d-flex-row justify-content-between">
+                  <div class="d-flex-row">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                    <img src="./assets/icons/star-fill.svg" alt="Estrela avaliação">
+                  </div>
+
+                  <div>
+                    <strong>19/04/2022</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-row-reverse mt-5">
+        <button type="button" class="btn btn-dark d-flex-row align-items-center">
+          <img class="btn-plus-icon" src="./assets/icons/plus.svg" alt="Carregar mais">
+          <span>Carregar mais filmes</span>
+        </button>
+      </div>
+    </section> -->
+
+    <!-- Entrevistas e making of -->
+    <!-- <section id="interviews">
+      <div class="interviews-header ml-2 mb-5">
+        <h1>Entrevistas & Making of</h1>
+      </div>
+
+      <div class="interviews-card">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class ="video">
+                <iframe src="https://www.youtube.com/embed/pRk2WeN3uog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div>
+                <p>
+                  <strong>Vídeo:</strong> EM QUAL ORDEM VER OS FILMES DO STUDIO GHIBLI?
+                </p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class ="video">
+                <iframe src="https://www.youtube.com/embed/Bsf_YEFBM74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div>
+                <p>
+                  <strong>Vídeo:</strong> TÚMULO DOS VAGALUMES - UM DOS MAIS TRISTES DA HISTÓRIA
+                </p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class ="video">
+                <iframe src="https://www.youtube.com/embed/5YGjyCThzzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div>
+                <p>
+                  <strong>Vídeo:</strong> MEU DESENHO FAVORITO: A VIAGEM DE CHIHIRO 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-row-reverse mt-5">
+        <button type="button" class="btn btn-dark d-flex-row align-items-center">
+          <img class="btn-plus-icon" src="./assets/icons/plus.svg" alt="Carregar mais">
+          <span>Carregar mais filmes</span>
+        </button>
+      </div>
+    </section>
+     -->
+    <!-- Novidades e Sobre -->
+    <!-- <main id="news" class="container">
+      <div class="row">
+        <div class="col-8">
+          <div class="news-header">
+            <h2>Novidades</h2>
+          </div>
+
+          <div class="news-cards">
+            <div class="news-card d-flex">
+              <div class="d-flex align-items-center mr-3">
+                <img class="news-card-img" src="/assets/images/news1.jpg" alt="xx">
+              </div>
+
+              <div class="d-flex flex-column justify-content-between">
+                <div class="news-title">
+                  <h3>Studio Ghibli ganhará parque temático</h3>
+                </div>
+
+                <span>
+                  O Studio Ghibli ganhará um parque temático no Japão inspirado em suas aclamadas animações, com lojas, espaços para exibições e restaurantes. Chamado de Parque Ghibli...
+                </span>
+
+                <div class="news-card-footer">
+                  <span>Parque</span>
+                  <span>Ghibli</span>
+                  <span>Novidades</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="news-card d-flex middle-news-card">
+              <div class="d-flex align-items-center mr-3">
+                <img class="news-card-img"src="/assets/images/news2.jpeg" alt="xx">
+              </div>
+
+              <div class="d-flex flex-column justify-content-between">
+                <div class="news-title">
+                  <h3>Novo filme dos estúdios Ghibli será exclusivo da Netflix</h3>
+                </div>
+
+                <span>
+                  Em janeiro de 2020, a Netflix anunciou uma parceria exclusiva com o Studio Ghibli, cujo acordo envolvia os direitos de aquisição...
+                </span>
+
+                <div class="news-card-footer">
+                  <span>Ghibli</span>
+                  <span>Netflix</span>
+                  <span>Novidades</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="news-card d-flex">
+              <div class="d-flex align-items-center mr-3">
+                <img class="news-card-img" src="/assets/images/news3.jpg" alt="xx">
+              </div>
+
+              <div class="d-flex flex-column justify-content-between">
+                <div class="news-title">
+                  <h3>Hayao Miyazaki retorna aos Studios Ghibli para um último filme</h3>
+                </div>
+
+                <span>
+                  O Studio Ghibli continua sendo um dos estúdios de animação mais lendários do mundo. Agora, parece que o prolífico criador Hayao Miyazaki está saindo da aposentadoria...
+                </span>
+
+                <div class="news-card-footer">
+                  <span>Ghibli</span>
+                  <span>Novidades</span>
+                  <span>Filmes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="about-header">
+            <h2>Sobre</h2>
+          </div>
+
+          <div>
+            Studio Ghibli Inc. é estúdio de cinema de animação japonês com sede em Koganei, Tóquio. O estúdio é mais conhecido por seus filmes de animação e também produziu vários curtas, comerciais de televisão e filmes.
+          </div>
+
+
+          <div class="mt-3">
+          <div class="editorial-header">
+            <h2>Editorial</h2>
+          </div>
+            <div class="d-flex-row">
+              <div class="mr-2 mb-2">
+                <img height="24" src="./assets/icons/blue-user.svg" alt="User">
+              </div>
+
+              <strong class="mr-2">Redação:</strong> 
+              <span>Ana Júlia Dias</span>
+            </div>
+
+            <div class="d-flex-row">
+              <div class="mr-2 mb-2">
+                <img height="24" src="./assets/icons/blue-user.svg" alt="User">
+              </div>
+
+              <strong class="mr-2">Pesquisa:</strong> 
+              <span>Ana Júlia Aguiar</span>
+            </div>
+
+            <div class="d-flex-row">
+              <div class="mr-2 mb-2">
+                <img height="24" src="./assets/icons/blue-user.svg" alt="User">
+              </div>
+
+              <strong class="mr-2">Gerente Geral:</strong> 
+              <span>Ana Júlia</span>
+            </div>
+          </div>
+
+          <div class="social-medias mt-2">
+            <div class="mb-2">
+              <span class="font-weight-bold">Redes Sociais:</span>
+            </div>
+
+            <div class="sm-icons d-flex-row">
+              <div>
+                <img height="48" src="./assets//icons/facebook-app-logo.svg" alt="Facebook">
+              </div>
+  
+              <div class="ml-4">
+                <img height="48" src="./assets//icons/twitter.svg" alt="Twitter">
+              </div>
+              
+              <div class="ml-4">
+                <img height="48" src="./assets//icons/instagram.svg" alt="Instagram">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="copyright">
+        <span>Copyright 2022 - Diciplina de Desenvolvimento de Interfaces Web- Ana Júlia Dias Aguiar - <strong>ICEI PUC Minas</strong></span>
+      </div>
+
+      <div class="logo">
+        <img src="./assets/images/logo.png" alt="Logo">
+      </div>
+    </footer> -->
+
+    <!-- Bootstrap scripts -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html> -->

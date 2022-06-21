@@ -1,0 +1,30 @@
+#ratings {
+    padding: 1rem 10rem 1rem 10rem;
+    background-color: #ffffff;
+}
+.ratings-header {
+    margin-top: 4rem;
+}
+.user-icon {
+    height: 48px;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 1000px){
+    #ratings {
+        width: 100%;
+        padding: 1.5rem;
+        padding-left: 10px;
+    }
+    .ratings-cards{
+        display: flex;
+
+    }
+    .ratings-column{
+        min-width: 100%;
+        vertical-align: middle;
+        align-items: center;
+        align-content: center;
+    }
+   
+}
